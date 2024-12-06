@@ -4,12 +4,16 @@
   "description": "a basic app to deploy",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js"
+    "start": "npx nodemon index.js"
   },
   "keywords": [
     "node",
     "chai"
   ],
   "author": "Thoufiq Izhar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
 }
